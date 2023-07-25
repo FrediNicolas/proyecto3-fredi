@@ -1,0 +1,36 @@
+//VARIABLE
+@import "../extrascss/variables";
+
+/* PAGINA DE OFERTAS */
+
+.header-ofertas{
+
+    background-color: $color-titulotres;
+    text-align: center;
+
+    .navbar{
+       display: flex;
+    justify-content: end; 
+    }   
+}
+.main-ofertas{
+    background-color: $color-font;
+
+    .subtitulo-oferta{
+        font-weight: 380;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #3D0C02;
+        text-align: center;
+    }
+    
+    .img-ofertas{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: auto;
+    } 
+}

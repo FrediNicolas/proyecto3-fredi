@@ -1,0 +1,170 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+    //IMPORT DE VARIABLES
+
+    @import "./extrascss/variables";
+    @import "./extrascss/mixin";
+    @import "./extrascss/extend";
+
+
+  
+  /* ESTILO DE CONTACTO */
+
+  .navbar{
+    display: flex;
+    justify-content: end;
+  }
+
+  .contactarse {
+    background-image: url(../img/imagendecontacto.jpg);
+    background-size: 100vw 100vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #262727; }
+
+  form {
+    margin: auto;
+    background-color: #3b3b3b;
+    padding: 20px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
+    height: 80%; }
+  
+  input {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none; }
+  
+
+    /* Estilo de Formulario de Ingreso*/
+
+    .registromain{
+        background-image: url(../img/imagendecontacto.jpg);
+        text-align: center;
+        .navbar{
+            display: flex;
+            justify-content: end;
+        }
+        .registro{
+            width: 70%;
+            background-color: rgb(78, 78, 78);
+            padding: 20px;
+            border-radius: 6px;
+            font-family: 'Raleway',sans-serif;
+            font-weight: 800;
+            text-align: center;
+            text-decoration: none;
+            margin: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .titleregistro{
+            font-size: 26px;
+            margin-bottom: 15px;
+            background-color: rgb(78, 78, 78);
+            font-family: 'Raleway',sans-serif;
+            font-weight: 900;
+            color: rgb(26, 26, 36);
+            text-align: center;
+        }
+        
+        .registropag{
+            background-color: rgb(211, 211, 214);
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 18px;
+            border: 2px solid #000000;
+        }
+        
+        .Condiciones{
+            background-color: rgb(78, 78, 78);  
+        }
+        
+        .boton{
+            background-color: rgb(211, 211, 214);
+            justify-items: center;
+            border-bottom: black;
+        }
+    }
+    /*Estilo de pagina principal*/
+
+    .pag-principal{
+
+        @include principal;
+    }
+    
+    .header-principal{
+        @extend %titulo;
+    }
+
+    /* Estilo pagina de Hombres*/
+
+   .paghombre{
+    @extend %titulo;
+    
+   }
+   
+    .hombreimg{
+        @include principal;
+        margin: 0;
+    }
+
+    // importando pagina de oferta
+    
+    @import "extrascss/pagoferta.scss";
+
+/*MI ESTILO DE QUIENES SOMOS*/
+
+.title-nosotros{
+    @extend %titulo;
+}
+
+.main-nosotros{
+    @include principal;
+}
+
+.nosotros{
+    background-color: rgb(235, 156, 142);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #272727;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.nosotroshijo{
+    width: 100%;
+}
+
+
+    /*MI ESTILO DE FOOTER*/
+
+.footer{
+    @include footer;
+    background-color: $color-titulotres;
+    margin: 0;
+    
+}
+
+/*Media queries tablet*/
+

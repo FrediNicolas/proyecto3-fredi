@@ -1,0 +1,28 @@
+//mixin
+
+@import "./variables";
+
+
+@mixin footer{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+@mixin principal{
+    
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: auto;
+        background-color: $color-font;
+}
+

@@ -1,0 +1,173 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header-principal, .paghombre, .title-nosotros {
+  background-color: #d8b9aa;
+  text-align: center; }
+
+/* ESTILO DE CONTACTO */
+.navbar {
+  display: flex;
+  justify-content: end; }
+
+.contactarse {
+  background-image: url(../img/imagendecontacto.jpg);
+  background-size: 100vw 100vh;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #262727; }
+
+form {
+  margin: auto;
+  background-color: #3b3b3b;
+  padding: 20px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+  height: 80%; }
+
+input {
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none; }
+
+/* Estilo de Formulario de Ingreso*/
+.registromain {
+  background-image: url(../img/imagendecontacto.jpg);
+  text-align: center; }
+  .registromain .navbar {
+    display: flex;
+    justify-content: end; }
+  .registromain .registro {
+    width: 70%;
+    background-color: #4e4e4e;
+    padding: 20px;
+    border-radius: 6px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .registromain .titleregistro {
+    font-size: 26px;
+    margin-bottom: 15px;
+    background-color: #4e4e4e;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+    color: #1a1a24;
+    text-align: center; }
+  .registromain .registropag {
+    background-color: #d3d3d6;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    border: 2px solid #000000; }
+  .registromain .Condiciones {
+    background-color: #4e4e4e; }
+  .registromain .boton {
+    background-color: #d3d3d6;
+    justify-items: center;
+    border-bottom: black; }
+
+/*Estilo de pagina principal*/
+.pag-principal {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  background-color: #e6d3c0; }
+
+/* Estilo pagina de Hombres*/
+.hombreimg {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  background-color: #e6d3c0;
+  margin: 0; }
+
+/* PAGINA DE OFERTAS */
+.header-ofertas {
+  background-color: #d8b9aa;
+  text-align: center; }
+  .header-ofertas .navbar {
+    display: flex;
+    justify-content: end; }
+
+.main-ofertas {
+  background-color: #e6d3c0; }
+  .main-ofertas .subtitulo-oferta {
+    font-weight: 380;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3D0C02;
+    text-align: center; }
+  .main-ofertas .img-ofertas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto; }
+
+/*MI ESTILO DE QUIENES SOMOS*/
+.main-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  background-color: #e6d3c0; }
+
+.nosotros {
+  background-color: #eb9c8e;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #272727;
+  border-radius: 5px;
+  border: 1px solid; }
+
+.nosotroshijo {
+  width: 100%; }
+
+/*MI ESTILO DE FOOTER*/
+.footer {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #d8b9aa;
+  margin: 0; }
+
+/*Media queries tablet*/
